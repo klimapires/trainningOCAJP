@@ -1,4 +1,4 @@
-package br.com.utopia.tipoDeDados;
+ package br.com.utopia.tipoDeDados;
 
 public class StringQueMuda {
 	public static void main(String[] args) {
@@ -20,6 +20,8 @@ public class StringQueMuda {
 		System.out.println(sb2);
 		
 		StringBuffer sb3 = new StringBuffer(sb1);
+		
+		//método append adiciona outros valores à String.
 		sb3.append("e o meu nome é Kleber");
 		sb3.append('.');
 		System.out.println(sb3);
@@ -29,5 +31,22 @@ public class StringQueMuda {
 		System.out.println(sb4);
 		sb4.delete(29, 51);
 		System.out.println(sb4);
+		
+		StringBuilder sb5 = new StringBuilder();
+		sb5.append(new Pessoa());
+		System.out.println(sb5);
+		
+		StringBuilder sb6 = new StringBuilder("Kleber");
+		
+		//método reverse inverte o valor das Strings.
+		sb6.reverse();
+		System.out.println(sb6);
+		
+		StringBuilder sb7 = new StringBuilder("Curso Java"); 
+		
+		//método substring e subSequence pega determinado do intervalo de uma string sem alterar seu valor.
+		System.out.println(sb7.substring(3, 8));
+		System.out.println(sb7.subSequence(3, 8));
+		System.out.println(sb7);
 	}
 }
