@@ -39,7 +39,7 @@ public class TrabalhandoComString {
 		System.out.println("kleber".equalsIgnoreCase("Kleber")); //Nesse caso é como no anterior, ignorando as letras Maiscúlas.
 		
 		System.out.println("a".compareTo("a")); //igual a zero
-		System.out.println("a".compareTo("b")); //retorna negatvo
+		System.out.println("a".compareTo("b")); //retorna negativo
 		System.out.println("d".compareTo("b")); //retorna positivo
 		System.out.println("a".compareToIgnoreCase("A"));
 		System.out.println("a".compareTo("A")); //retorna positivo ???

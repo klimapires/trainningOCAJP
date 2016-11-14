@@ -2,9 +2,9 @@
 
 public class StringQueMuda {
 	public static void main(String[] args) {
-/*		String nome = "Kleber";
-		nome += " Lima";
-		nome += " Pires"; --> Método não indicado para utilizar concatenação.
+/*		String nome = "José";
+		nome += " João";
+		nome += " e Maria"; --> Método não indicado para utilizar concatenação.
 		
 		System.out.println(nome);*/
 		
